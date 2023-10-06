@@ -59,7 +59,10 @@
                                 <div class="col-md-8 offset-md-4">
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Add Service') }}
-                                    </button><br><br>
+                                    </button>
+                                    <a href="{{ route('home') }}" class="btn btn-secondary">Home</a>
+
+                                    <br>
 
                                     @if (session('message'))
                                         <div class="alert alert-success alert-dismissible fade show" role="alert">

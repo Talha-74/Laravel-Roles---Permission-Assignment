@@ -18,11 +18,13 @@
 
                         <div>
                             <a href="{{url('/shops/products/create')}}" class="btn btn-primary d-inline ml-5">Add Product</a>
+                            <a href="{{ route('home') }}" class="btn btn-secondary">Home</a>
+
                         </div>
 
                     </div>
                 </div>
-<br><br>
+<br>
                 <div class="card">
                     <div class="card-header">{{ __('Products List') }}</div>
                     <div class="card-body">

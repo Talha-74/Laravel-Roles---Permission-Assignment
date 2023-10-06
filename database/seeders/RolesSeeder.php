@@ -16,5 +16,7 @@ class RolesSeeder extends Seeder
         $shopRole = Role::create(['name' => 'Shop']);
 
         $serviceProviderRole = Role::create(['name' => 'Service Provider']);
+
+        $customerRole = Role::create(['name' => 'Customer', 'guard_name' => 'web']);
     }
 }

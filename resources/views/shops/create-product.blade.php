@@ -60,6 +60,8 @@
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Add Product') }}
                                     </button>
+                                    <a href="{{ route('shops.dashboard') }}" class="btn btn-secondary"> Shop Dashboard</a>
+
 
                                     <br><br>
 
